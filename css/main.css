@@ -1,0 +1,88 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+body {
+    background-color: yellow;
+}
+    .container {
+        display: inline-block;
+        width: 1200px;
+        height: 900px;
+        margin-left: calc( (100% - 1200px) / 2 );
+        background-color: tomato;
+
+    }
+        header {
+            display: inline-block;
+            height: 80px;
+            width: 100%;
+            background-color: blue;
+
+        }
+            .menu {
+                display: inline-block;
+                float: left;
+                margin-left: 80px;
+                margin-top: 30px;
+            }
+            nav {
+                display: inline-block;
+                float: right;
+                margin-right: 80px;
+                margin-top: 30px;
+            }
+                a {
+                    display: inline-block;
+                    text-indent: 60px;
+                    color: white;
+
+                }
+        main {
+            display: inline-block;
+            width: 100%;
+
+        }
+            .maintxt {
+                display: inline-block;
+                margin-top: 200px;
+                margin-left: 80px;
+                width: 28%;
+                float: left;
+                text-transform: uppercase;
+                            
+
+            }
+                h1 {
+                    display: inline-block;
+                    float: left;
+                    color: white;
+                    font-size: 45px;
+                    
+                    
+                }
+                p {
+                    display: inline-block;
+                    float: left;
+                    font-size: 15px;
+                    line-height: 20px;
+
+                }
+
+            .play {
+                display: inline-block;
+                /* float: left; */
+
+
+            }      
+            .ledai {
+                display: inline-block;
+                float: right;
+                margin: 80px;
+                height: 500px;
+                /* width: auto; */
+            }
